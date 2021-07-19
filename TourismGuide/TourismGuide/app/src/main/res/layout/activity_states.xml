@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".StatesActivity">
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long1b" />
+
+            <TextView
+                android:id="@+id/textLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="5 days in Manali, Spiti Valley (196Km, 4hrs, 4.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/hills5" />
+
+            <TextView
+                android:id="@+id/textLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Bangalore, Coorg(267Km, 5hrs, 3.5⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel3"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long3b" />
+
+            <TextView
+                android:id="@+id/textLabel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Mumbai, Alibaug(92Km, 3hrs, 3.8⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel4"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state4" />
+
+            <TextView
+                android:id="@+id/textLabel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Assam"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel5"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state5" />
+
+            <TextView
+                android:id="@+id/textLabel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Bihar"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel6"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state6" />
+
+            <TextView
+                android:id="@+id/textLabel6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Chattisgarh"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel7"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state7" />
+
+            <TextView
+                android:id="@+id/textLabel7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Chandighar"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel0"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state8" />
+
+            <TextView
+                android:id="@+id/textLabel0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Delhi"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel9"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state9" />
+
+            <TextView
+                android:id="@+id/textLabel9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Goa"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel10"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state10" />
+
+            <TextView
+                android:id="@+id/textLabel10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Gujarat"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel11"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state11" />
+
+            <TextView
+                android:id="@+id/textLabel11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Haryana"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel12"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state12" />
+
+            <TextView
+                android:id="@+id/textLabel12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Himachal Pradesh"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel13"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state13" />
+
+            <TextView
+                android:id="@+id/textLabel13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Arunachal Pradesh"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel14"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state14" />
+
+            <TextView
+                android:id="@+id/textLabel14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Jammu and Kashmir"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel15"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state15" />
+
+            <TextView
+                android:id="@+id/textLabel15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Jharkand"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel16"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state16" />
+
+            <TextView
+                android:id="@+id/textLabel16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Karnataka"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel17"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state17" />
+
+            <TextView
+                android:id="@+id/textLabel17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Kerala"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel18"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state18" />
+
+            <TextView
+                android:id="@+id/textLabel18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Ladakh"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel19"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state19" />
+
+            <TextView
+                android:id="@+id/textLabel19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Lakshadweep"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel20"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state20" />
+
+            <TextView
+                android:id="@+id/textLabel20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Madhya Pradesh"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel21"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state21" />
+
+            <TextView
+                android:id="@+id/textLabel21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Maharastra"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel22"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state22" />
+
+            <TextView
+                android:id="@+id/textLabel22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Manipur"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel23"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state23" />
+
+            <TextView
+                android:id="@+id/textLabel23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Meghalaya"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel24"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state24" />
+
+            <TextView
+                android:id="@+id/textLabel24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Mizoram"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel25"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Nagaland"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel26"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Kodaikanal, Idukki(153Km, 4hrs, 3.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel27"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Kodaikanal, Idukki(153Km, 4hrs, 3.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel28"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Kodaikanal, Idukki(153Km, 4hrs, 3.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel29"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state29" />
+
+            <TextView
+                android:id="@+id/textLabel29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Rajasthan"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel30"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Kodaikanal, Idukki(153Km, 4hrs, 3.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel31"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state31" />
+
+            <TextView
+                android:id="@+id/textLabel31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Tamil Nadu"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel32"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Kodaikanal, Idukki(153Km, 4hrs, 3.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel33"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state33" />
+
+            <TextView
+                android:id="@+id/textLabel33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Tripura"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel34"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state34" />
+
+            <TextView
+                android:id="@+id/textLabel34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Uttar Pradesh"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel35"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Kodaikanal, Idukki(153Km, 4hrs, 3.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel36"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state36" />
+
+            <TextView
+                android:id="@+id/textLabel36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="West Bengal"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel37"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Kodaikanal, Idukki(153Km, 4hrs, 3.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel38"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Kodaikanal, Idukki(153Km, 4hrs, 3.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel8"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Kodaikanal, Idukki(153Km, 4hrs, 3.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel39"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/long8a" />
+
+            <TextView
+                android:id="@+id/textLabel39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="4 days in Kodaikanal, Idukki(153Km, 4hrs, 3.3⭐)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

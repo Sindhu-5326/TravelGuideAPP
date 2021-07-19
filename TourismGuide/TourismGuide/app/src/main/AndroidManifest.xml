@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tourismguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TourismGuide">
+        <activity android:name=".KonarkActivity"></activity>
+        <activity android:name=".GangaActivity" />
+        <activity android:name=".StatesActivity" />
+        <activity android:name=".WeekendActivity" />
+        <activity android:name=".GridActivity8" />
+        <activity android:name=".GridActivity7" />
+        <activity android:name=".GridActivity6" />
+        <activity android:name=".GridActivity5" />
+        <activity android:name=".GridActivity4" />
+        <activity android:name=".GridActivity3" />
+        <activity android:name=".GridActivity2" />
+        <activity android:name=".GridActivity" />
+        <activity android:name=".ManaliActivity" />
+        <activity android:name=".DalActivity" />
+        <activity android:name=".LotusActivity" />
+        <activity android:name=".TajActivity" />
+        <activity android:name=".ParkActivity" />
+        <activity android:name=".BridgeActivity" />
+        <activity android:name=".ReligiousActivity" />
+        <activity android:name=".MonumentsActivity" />
+        <activity android:name=".IslandActivity" />
+        <activity android:name=".WaterfallActivity" />
+        <activity android:name=".HillsActivity" />
+        <activity android:name=".BeachActivity" />
+        <activity android:name=".VacationActivity" />
+        <activity android:name=".ExploreActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
